@@ -1,0 +1,126 @@
+/* Magnify Theme by Sarah Evans Designs */
+
+/* GENERAL AND REST STYLES */
+
+html {height: auto;}
+body {margin:0; padding:0; font-weight: normal; font-style: normal; line-height: 1;  -webkit-font-smoothing: antialiased;  }
+
+#magnify-container ul, #magnify-container li {line-height: 1.6em;}
+#magnify-container  a img { border: none; }
+#magnify-container {height:100%;  position: relative; background:#f1f1f1;}
+#magnify-container .clear {clear:both;}
+
+#magnify-container .main-container {padding:0.85em; padding-top:7em; }
+#magnify-container .main-block {margin-bottom:1.5em;} /* Adds bottom margin to each main-block */
+#magnify-container .side-block {margin-bottom:1.5em;} /* Adds bottom margin to each side-block */
+#magnify-container .footer-block {margin-bottom:1.5em;} /* Adds bottom margin to each footer-block */
+#magnify-container .slider-container {margin-bottom:2em;} /* Adds bottom margin to slider */
+
+
+/* HEADER STYLES */
+#magnify-container .header-container { background:#343635; position: fixed; width:100%; z-index: 4;  }
+#magnify-container .header-container .header { height:4.625em; }
+#magnify-container .header-container .header a:hover {border:0;}
+#magnify-container .header ul {float: right; list-style-type: none;  margin:0; margin-top:-10px; }
+#magnify-container .logo-container {float:left; width:300px; }
+
+/* NAVIGATION STYLES */
+#magnify-container .header .menu-button {display:none;}
+#magnify-container .header .navigation select { display: none; }
+#magnify-container .header ul {margin:auto; height:4.625em;  }
+#magnify-container .header ul li {display: inline-block; border-top:0.25em solid #343635;font-size: 1em; margin: 0; float: left; position: relative; width: auto; color:#FFF; -webkit-transition: background 1s ease-in-out; -moz-transition: background 1s ease-in-out; -ms-transition: background 1s ease-in-out; -o-transition: background 1s ease-in-out; transition: background 1s ease-in-out; }
+#magnify-container .header ul li a {text-decoration: none; font-family: 'Oswald', sans-serif; font-weight: 300; letter-spacing: 0.1em;  border-bottom:0;  padding:1.4em 1.4em; display: inline-block; text-transform: uppercase;  }
+#magnify-container .header ul li.nav-path-selected { /* customize_Nav_Selected_Top */ border-color:#21c3eb; /* customize_Nav_Selected_Top */ }
+#magnify-container .header ul li.nav-path-selected ul li.nav-path-selected { background-color:#343635; }
+#magnify-container .header ul li.nav-path-selected ul li.nav-path-selected a {color:#FFF;}
+#magnify-container .header ul li:hover {background-color: #2c2e2d; visibility: inherit; /* fixes IE7 'sticky bug' */ }
+#magnify-container .header ul li.nav-path-selected:hover {background-color:#343635;}
+#magnify-container .header ul li.nav-path-selected ul li {border-color: #FFF;}
+#magnify-container .header ul li.nav-path-selected ul li.nav-path-selected:hover { cursor:none; color:#FFF; background:#343635;} 
+#magnify-container .header ul li.nav-path-selected ul li.nav-path-selected:hover a { color:#FFF;} 
+
+#magnify-container .header ul li a { margin:auto; height:100%; color:#FFF; -webkit-transition: color 1s ease-in-out; -moz-transition: color 1s ease-in-out; -ms-transition: color 1s ease-in-out; -o-transition: color 1s ease-in-out; transition: color 1s ease-in-out; }
+#magnify-container .header ul li.nav-selected a {/* customize_Nav_Link_Selected */ color:#21c3eb; /* customize_Nav_Link_Selected */}
+#magnify-container .header ul li.nav-selected a:hover {cursor: default;}
+#magnify-container .header ul li ul { position: absolute; height:auto; top: -999em; width: 180px; /* left offset of submenus need to match */}
+#magnify-container .header ul li ul li {border:0;}
+#magnify-container .header ul li ul li a {padding:0px; border:0; width:100%; }
+#magnify-container .header ul li.nav-selected ul li a {color:#FFF; }
+#magnify-container .header ul li:hover ul {background:#343635;  width:100%; left: 0; top:4.4em; z-index: 300;}
+#magnify-container .header ul li ul li {border-top: 1px solid #f1f1f1; padding: 6px; width:100%}
+#magnify-container .header ul li ul li:hover {/* customize_Nav_Background_Hover */ background-color:#21c3eb; /* customize_Nav_Background_Hover */}
+#magnify-container .header ul li ul li a { margin-left:0; padding:6px 12px; font-size:15px; -webkit-transition: 0.4s ease; -moz-transition: 0.4s ease; -o-transition: 0.4s ease; -ms-transition: 0.4s ease; transition: 0.4s ease; }
+#magnify-container .header ul li ul li:hover a { color:#FFF; margin-left:4px;}
+#magnify-container .header ul li ul li.nav-path-selected a:hover { cursor:default; margin-left:0px;}
+
+
+#magnify-container .blog-thumb { /* customize_Blog_List_Background */ background-color:#21c3eb; /* customize_Blog_List_Background */}
+
+
+/* FOOTER */
+#magnify-container .footer {background:#343635; width:100%; color:#b3b3b3; padding-top:3em; margin-top:0.85em; }
+#magnify-container .footer ul {list-style: none; margin-top:1em;}
+#magnify-container .footer p, #magnify-container .footer li { color:#b3b3b3; font-size: 0.9em;}
+#magnify-container .footer a {color:#FFF; }
+#magnify-container .footer a:hover {color:#FFF; text-decoration: underline; }
+#magnify-container .footer a.cta-link:hover {margin-left:4px; color:#FFF; text-decoration: none;}
+#magnify-container .footer .footer-credits-wrapper {background:#2c2e2d; margin-top:0.85em; padding:0.85em 0;}
+#magnify-container .footer .footer-credits {text-align: center;}
+#magnify-container .footer .footer-credits p, #magnify-container .footer .footer-credits a {font-size:0.938em; font-family: 'Oswald', sans-serif; font-weight:300; letter-spacing: 0.1em; text-transform: uppercase; text-align:center;   color:#717171;}
+
+/* SOCIAL ICONS - included in demo site */
+#magnify-container .socialIcon {width:48px; height:48px; float:left; margin:0 18px 18px 0; background:#535353; -webkit-transition: background 1s ease-in-out; -moz-transition: background 1s ease-in-out; -ms-transition: background 1s ease-in-out; -o-transition: background 1s ease-in-out; transition: background 1s ease-in-out;}
+#magnify-container .socialIcon:hover {/* customize_Social_Hover */ background-color:#21c3eb; /* customize_Social_Hover */ }
+
+#magnify-container .socialTwitter {background-image: url(http://nikkendrew.com/img/social-twitter.png); background-repeat: no-repeat;}
+#magnify-container .socialLinkedin {background-image: url(http://nikkendrew.com/img/social-linkedin.png); background-repeat: no-repeat;}
+#magnify-container .socialFacebook {background-image: url(http://nikkendrew.com/img/social-facebook.png); background-repeat: no-repeat;}
+#magnify-container .socialGoogle {background-image: url(http://nikkendrew.com/img/social-google.png); background-repeat: no-repeat;}
+
+
+
+
+/* MEDIA QUERIES (Main structural styles are found in foundation.css) */
+
+/* UNDER 947px STYLES */
+
+@media only screen and (max-width: 947px) {
+#magnify-container .main-container {padding:0.9em; margin-top:0.85em; }
+#magnify-container .header-container { position:relative;}
+#magnify-container .header-container .header { height:auto; text-align: center;}
+#magnify-container .header-container .header a:hover {border:0;}
+#magnify-container .header ul {display: inline-block; float:none;  margin:auto; list-style-type: none; border-top: 0 }
+#magnify-container .logo-container {float:none; margin:auto; text-align: center; }
+
+/* NAVIGATION STYLES */
+#magnify-container .header ul {height:auto;}
+#magnify-container .header ul li {border-top:0;  padding:0; margin:0;}
+#magnify-container .header ul li a { padding:12px 32px; font-size:16px;  }
+#magnify-container .header ul li:hover ul { top: 49px;}
+#magnify-container .header ul li.nav-path-selected {border-top:0;}
+}
+
+
+/* UNDER 767px STYLES */
+
+@media only screen and (max-width: 767px) {
+
+#magnify-container .header .navigation { display:none; padding:0;}
+#magnify-container .header ul li {width:100%; border-top:solid 1px #505050;}
+#magnify-container .header ul li a {width:100%;}
+#magnify-container .header ul li.nav-path-selected {border-top:solid 1px #505050;}
+#magnify-container .header ul li ul {display:none!important;}
+
+
+ #magnify-container .footer .footer-bottom .footer-tag-line { text-align:left;}
+ #magnify-container .logo-container {border-bottom: 0;}
+ #magnify-container .header-container .header {border-bottom:0;}
+ #magnify-container .footer p.footer-tag-line {text-align: right; }
+
+ #magnify-container .header .menu-button { background: url(http://nikkendrew.com/packages/magnify/themes/magnify/images/menu.png) #202120 center; display:block; float:right; position:absolute; right:0; top:0; padding: 0.85em; margin:0.85em; width:2.4em;  vertical-align: middle; } }
+
+
+ 
+
+
+

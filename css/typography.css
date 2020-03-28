@@ -1,0 +1,36 @@
+
+#magnify-container { font-family: 'Droid Sans', sans-serif; font-weight:400; color:#2c2e2d; word-wrap: break-word;}
+#magnify-container p {font-size: 0.95em; line-height: 1.6em; font-family: 'Droid Sans', sans-serif; font-weight: 400; margin:1em 0; text-align: justify;}
+#magnify-container #logo {font-family: 'Oswald', sans-serif; font-size: 2em; text-transform: uppercase; color: #fff; margin-top: 8px;}
+#magnify-container .accent {color: #21c3eb;}
+
+/* LINK STYLES */
+#magnify-container a {/* customize_standard_links */ color:#21c3eb; /* customize_standard_links */ text-decoration: none;}
+#magnify-container a:hover { text-decoration: none; color:#444444;}
+#magnify-container a.cta-link { display: block; padding:6px 0;  -webkit-transition: 0.4s ease;-moz-transition: 0.4s ease;-o-transition: 0.4s ease;-ms-transition: 0.4s ease;transition: 0.4s ease;}
+#magnify-container a.cta-link:hover {margin-left:4px; color:#282828;}
+#magnify-container a.cta-link:after {content: "\00a0 \2192";}
+
+
+/* LIST STYLES */
+#magnify-container ul, #magnify-container ol {list-style:inside; margin:1em 0; padding:0;}
+#magnify-container ul {list-style-type:square; }
+#magnify-container ol {list-style-type:decimal; }
+
+
+/* HEADING STYLES */
+#magnify-container h1, #magnify-container h2, #magnify-container h3, #magnify-container h4, #magnify-container h5 { padding:0 6px 0 0;  font-family: 'Oswald', sans-serif; font-weight:300; letter-spacing: 0.1em; margin:0; color:#2c2e2d; line-height: 1.1; font-style: normal; text-rendering: optimizeLegibility; text-transform: uppercase;  }
+
+#magnify-container h1 {font-size: 1.8em; }
+#magnify-container h2 {font-size: 1.6em; }
+#magnify-container h3 {font-size: 1.5em; }
+#magnify-container h4 {font-size: 1.3em; }
+#magnify-container h5 {font-size: 1em; }
+
+#magnify-container .block-surround { background:url(http://nikkendrew.com/packages/magnify/themes/magnify/images/bg-headings-main.png) repeat-x center; width:100%;}
+
+#magnify-container .block-surround h1, #magnify-container .block-surround h2, #magnify-container .block-surround h3, #magnify-container .block-surround h4#magnify-container .block-surround h5  { padding:2px 6px 2px 0; background:#f1f1f1; display: inline-block;}
+
+
+/* FOOTER HEADING STYLES */
+#magnify-container .footer h1, #magnify-container .footer h2, #magnify-container .footer h3, #magnify-container .footer h4, #magnify-container .footer h5 {  color:#FFF; background:#343635;}
